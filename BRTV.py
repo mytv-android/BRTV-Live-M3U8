@@ -95,7 +95,7 @@ def git_push(repo_path, commit_message):
         # 添加安全目录
         add_safe_directory(repo_path)
         # 配置 Git 用户身份
-        set_git_identity(repo_path, "Your Name", "you@example.com")
+        set_git_identity(repo_path, "0047ol", "i0047ol@qq.com")
         # 关联远程仓库
         remote_name = "origin"
         remote_url = "git@github.com:0047ol/BRTV-Live-M3U8.git"
