@@ -65,15 +65,54 @@ def update_data(data_list):
     else:
         print("模版文件不存在")
 
+def add_safe_directory(repo_path):
+    try:
+        subprocess.run(['sudo', '-u', 'www', 'git', 'config', '--global', '--add', 'safe.directory', repo_path], check=True)
+        print(f"{repo_path} 已添加到 Git 安全目录列表")
+    except subprocess.CalledProcessError as e:
+        print(f"添加安全目录时出错: {e}")
+
+def set_git_identity(repo_path, name, email):
+    try:
+        # 以 www 用户身份配置用户名
+        subprocess.run(['sudo', '-u', 'www', 'git', '-C', repo_path, 'config', 'user.name', name], check=True)
+        # 以 www 用户身份配置邮箱
+        subprocess.run(['sudo', '-u', 'www', 'git', '-C', repo_path, 'config', 'user.email', email], check=True)
+        print(f"Git 用户身份已配置为 {name} <{email}>")
+    except subprocess.CalledProcessError as e:
+        print(f"配置 Git 用户身份时出错: {e}")
+
+def add_remote_repository(repo_path, remote_name, remote_url):
+    try:
+        # 以 www 用户身份添加远程仓库
+        subprocess.run(['sudo', '-u', 'www', 'git', '-C', repo_path, 'remote', 'add', remote_name, remote_url], check=True)
+        print(f"已关联远程仓库 {remote_name}: {remote_url}")
+    except subprocess.CalledProcessError as e:
+        print(f"关联远程仓库时出错: {e}")
+
 def git_push(repo_path, commit_message):
     try:
-        subprocess.run(['git', '-C', repo_path, 'add', 'BRTV.m3u'], check=True)
-        subprocess.run(['git', '-C', repo_path, 'commit', '-m', commit_message], check=True)
-        subprocess.run(['git', '-C', repo_path, 'push'], check=True)
+        # 添加安全目录
+        add_safe_directory(repo_path)
+        # 配置 Git 用户身份
+        set_git_identity(repo_path, "Your Name", "you@example.com")
+        # 关联远程仓库
+        remote_name = "origin"
+        remote_url = "git@github.com:0047ol/BRTV-Live-M3U8.git"
+        add_remote_repository(repo_path, remote_name, remote_url)
+        # 以 www 用户身份执行 git add
+        subprocess.run(['sudo', '-u', 'www', 'git', '-C', repo_path, 'add', 'BRTV.m3u'], check=True)
+        print("文件已添加到暂存区")
+        # 以 www 用户身份执行 git commit
+        subprocess.run(['sudo', '-u', 'www', 'git', '-C', repo_path, 'commit', '-m', commit_message], check=True)
+        print("更新已提交到本地仓库")
+        # 以 www 用户身份设置上游分支并推送
+        local_branch = "master"  # 根据实际情况修改
+        remote_branch = "main"
+        subprocess.run(['sudo', '-u', 'www', 'git', '-C', repo_path, 'push', '--set-upstream', remote_name, f"{local_branch}:{remote_branch}"], check=True)
         print("更新已推送到远程仓库")
     except subprocess.CalledProcessError as e:
         print(f"Git 操作出错: {e}")
-
 def main():
 
     data_list = []
