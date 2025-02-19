@@ -1,25 +1,17 @@
 #EXTM3U
-
-#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://live.fanmingming.cn/tv/北京卫视.png" group-title="北京",北京卫视
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s1/index.m3u8?time=1739758210&sign=5f5edb42cf141c86eebca01023323971
-
-#EXTINF:-1 tvg-name="北京新闻" tvg-logo="https://live.fanmingming.cn/tv/北京新闻.png" group-title="北京",北京新闻
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s9/index.m3u8?time=1739758215&sign=785cfd8745ced8301eeb1dd9ac77059f
-
-#EXTINF:-1 tvg-name="北京影视" tvg-logo="https://live.fanmingming.cn/tv/北京影视.png" group-title="北京",北京影视
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s4/index.m3u8?time=1739758212&sign=c7f75f847fb87abd8ca21f2d4f5e2412
-
-#EXTINF:-1 tvg-name="北京生活" tvg-logo="https://live.fanmingming.cn/tv/北京生活.png" group-title="北京",北京生活
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s7/index.m3u8?time=1739758214&sign=5f320a2161ff816cc7c4f3d2442a5024
-
-#EXTINF:-1 tvg-name="北京文艺" tvg-logo="https://live.fanmingming.cn/tv/北京文艺.png" group-title="北京",北京文艺
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s2/index.m3u8?time=1739758210&sign=3fd7ef284b3d7f7e4e1d03ddbe99403f
-
-#EXTINF:-1 tvg-name="北京财经" tvg-logo="https://live.fanmingming.cn/tv/北京财经.png" group-title="北京",北京财经
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s5/index.m3u8?time=1739758213&sign=61cc9514231416bc08bd8819177207b9
-
-#EXTINF:-1 tvg-name="北京纪实科教" tvg-logo="https://live.fanmingming.cn/tv/北京纪实科教.png" group-title="北京",北京纪实科教
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s3/index.m3u8?time=1739758211&sign=276045c91ef6870361b949dee9796598
-
-#EXTINF:-1 tvg-name="北京卡酷少儿" tvg-logo="https://live.fanmingming.cn/tv/北京卡酷少儿.png" group-title="北京",北京卡酷少儿
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s10/index.m3u8?time=1739758216&sign=a26ce6d4e427db5c7f304fd8dcb9fe87
+#EXTINF:-1 tvg-name="北京卫视",北京卫视
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s1/index.m3u8?time=1739943732&sign=4f9b870b8efe0ed358e72d4812ada863
+#EXTINF:-1 tvg-name="北京新闻",北京新闻
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s9/index.m3u8?time=1739943736&sign=96a41602b3db4a00bd7412652ab69d8c
+#EXTINF:-1 tvg-name="北京影视",北京影视
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s4/index.m3u8?time=1739943734&sign=fcedeaa63b341581911eee0305f96753
+#EXTINF:-1 tvg-name="北京生活",北京生活
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s7/index.m3u8?time=1739943736&sign=574977b5b66adc03a2d47949ceae0d13
+#EXTINF:-1 tvg-name="北京文艺",北京文艺
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s2/index.m3u8?time=1739943733&sign=c7200ddd2e46883db33b5425941bb808
+#EXTINF:-1 tvg-name="北京财经",北京财经
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s5/index.m3u8?time=1739943735&sign=39e08013913badccaf71be2e68407d5d
+#EXTINF:-1 tvg-name="北京纪实科教",北京纪实科教
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s3/index.m3u8?time=1739943733&sign=3bf952cf76d2edc0d212875675d3ff17
+#EXTINF:-1 tvg-name="北京卡酷少儿",北京卡酷少儿
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s10/index.m3u8?time=1739943737&sign=0851cf152e7fae51a0f7cbe14d2f6d2a
