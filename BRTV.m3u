@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="北京卫视",北京卫视
-{BEIJINGTV}
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s1/index.m3u8?time=1740740707&sign=3e386c5dc852e991d3e1d058429ed925
 #EXTINF:-1 tvg-name="北京新闻",北京新闻
 {BEIJINGXW}
 #EXTINF:-1 tvg-name="北京影视",北京影视
@@ -8,10 +8,10 @@
 #EXTINF:-1 tvg-name="北京生活",北京生活
 {BEIJINGSH}
 #EXTINF:-1 tvg-name="北京文艺",北京文艺
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s2/index.m3u8?time=1740740703&sign=9c2b4416fa1a3bcbc453bfc3d9724ade
+{BEIJINGWY}
 #EXTINF:-1 tvg-name="北京财经",北京财经
-{BEIJINGCJ}
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s5/index.m3u8?time=1740740708&sign=6a65702ae5fed7ee4dba2b39f095800c
 #EXTINF:-1 tvg-name="北京纪实科教",北京纪实科教
 {BEIJINGKJ}
 #EXTINF:-1 tvg-name="北京卡酷少儿",北京卡酷少儿
-{BEIJINGSR}
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s10/index.m3u8?time=1740740709&sign=23ecff9bccfe3c3997aca02ec818b9d0
