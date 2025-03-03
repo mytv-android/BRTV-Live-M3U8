@@ -1,17 +1,17 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="北京卫视",北京卫视
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s1/index.m3u8?time=1740977102&sign=ae65b4e38264ec6889671c84b6e13b79
+{BEIJINGTV}
 #EXTINF:-1 tvg-name="北京新闻",北京新闻
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s9/index.m3u8?time=1740977104&sign=9f6eddf49fc6d8d8be313c660cab7be0
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s9/index.m3u8?time=1740977916&sign=255fa04ba70962175f4d14fa984f050a
 #EXTINF:-1 tvg-name="北京影视",北京影视
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s4/index.m3u8?time=1740977103&sign=f6abc80583648a4bc3610f2cb3df814c
+{BEIJINGYS}
 #EXTINF:-1 tvg-name="北京生活",北京生活
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s7/index.m3u8?time=1740977104&sign=e1dc209bea0a203dae845dc2f43ca899
+{BEIJINGSH}
 #EXTINF:-1 tvg-name="北京文艺",北京文艺
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s2/index.m3u8?time=1740977103&sign=daa083184c204f9205ac40726868109e
+{BEIJINGWY}
 #EXTINF:-1 tvg-name="北京财经",北京财经
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s5/index.m3u8?time=1740977104&sign=facd39ae81b69f9dca490127af02ca3d
+{BEIJINGCJ}
 #EXTINF:-1 tvg-name="北京纪实科教",北京纪实科教
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s3/index.m3u8?time=1740977103&sign=8f1d9797808fbf4156cac92b6b3c2ae4
+{BEIJINGKJ}
 #EXTINF:-1 tvg-name="北京卡酷少儿",北京卡酷少儿
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s10/index.m3u8?time=1740977105&sign=fc98d1aa2a9285b5af096bc60181d60d
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s10/index.m3u8?time=1740977918&sign=d0a5fba925c11e2cf40e2e03e8bcfcb6
