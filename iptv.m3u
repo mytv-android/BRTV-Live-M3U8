@@ -1,19 +1,19 @@
 #EXTM3U x-tvg-url="https://e.erw.cc/all.xml.gz" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
 #EXTINF:-1 tvg-name="北京卫视4K超高清" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京卫视.png",北京卫视4K超高清
-https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s110/index.m3u8?time=1762653015&sign=e1734718b5d92d154a50d8c1f6b303cf
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s110/index.m3u8?time=1762655416&sign=2d9cade481bbcde66953560828d0bb04
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京卫视.png",北京卫视
-https://brtv-play.v.btime.com/live/btv_sn_20170706_s1.m3u8?txSecret=d2bad45cafa5e74272b271158bd5d6b6&txTime=690FF34F
+https://brtv-play.v.btime.com/live/btv_sn_20170706_s1.m3u8?txSecret=e69d4b2b5b8cf33cba714b412f8be0d8&txTime=690FFCAF
 #EXTINF:-1 tvg-name="北京新闻" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京新闻.png",北京新闻
-https://brtv-play.v.btime.com/live/btv_sn_20170706_s9.m3u8?txSecret=c8446cf7721554f1046d77cd44c524f4&txTime=690FF355
+https://brtv-play.v.btime.com/live/btv_sn_20170706_s9.m3u8?txSecret=098779867de261bb59807c55d769bcf7&txTime=690FFCB6
 #EXTINF:-1 tvg-name="北京影视" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京影视.png",北京影视
-https://brtv-play.v.btime.com/live/btv_sn_20170706_s4.m3u8?txSecret=02a6442e99bb6736a96633ea1efc8c74&txTime=690FF352
+https://brtv-play.v.btime.com/live/btv_sn_20170706_s4.m3u8?txSecret=ea3a99b0375196a6c7e3151ba7799da7&txTime=690FFCB3
 #EXTINF:-1 tvg-name="北京生活" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京生活.png",北京生活
-https://brtv-play.v.btime.com/live/btv_sn_20170706_s7.m3u8?txSecret=e806ef90df1ff16ef82cdf9f024d2153&txTime=690FF354
+https://brtv-play.v.btime.com/live/btv_sn_20170706_s7.m3u8?txSecret=932277881f4e21992538d0617ac7129f&txTime=690FFCB5
 #EXTINF:-1 tvg-name="北京文艺" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京文艺.png",北京文艺
-https://brtv-play.v.btime.com/live/btv_sn_20170706_s2.m3u8?txSecret=612cb1924bf33b534232cf659de1dff7&txTime=690FF350
+https://brtv-play.v.btime.com/live/btv_sn_20170706_s2.m3u8?txSecret=9d567732967c0f5889eaaa20be7f7f9d&txTime=690FFCB1
 #EXTINF:-1 tvg-name="北京财经" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京财经.png",北京财经
-https://brtv-play.v.btime.com/live/btv_sn_20170706_s5.m3u8?txSecret=888db2539555de3dc5066cd5cc730cac&txTime=690FF353
+https://brtv-play.v.btime.com/live/btv_sn_20170706_s5.m3u8?txSecret=5bb25bd084df206df44b8ccf96e68449&txTime=690FFCB4
 #EXTINF:-1 tvg-name="北京纪实科教" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京纪实科教.png",北京纪实科教
-https://brtv-play.v.btime.com/live/btv_sn_20170706_s3.m3u8?txSecret=527ba263d25cbed67aadbe83fcf29cdb&txTime=690FF351
+https://brtv-play.v.btime.com/live/btv_sn_20170706_s3.m3u8?txSecret=8618dfd7819c7feb5b20cf6d508d661f&txTime=690FFCB2
 #EXTINF:-1 tvg-name="北京卡酷少儿" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京卡酷少儿.png",北京卡酷少儿
-https://brtv-play.v.btime.com/live/btv_sn_20170706_s10.m3u8?txSecret=ab928173deac8bff917def3cb8b51e06&txTime=690FF356
+https://brtv-play.v.btime.com/live/btv_sn_20170706_s10.m3u8?txSecret=c369e8c381a0a2d7dc092201c50b6822&txTime=690FFCB7
