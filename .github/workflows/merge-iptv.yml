@@ -1,6 +1,6 @@
 name: 自动合并IPTV列表
 
-on:
+于:
   schedule:
     # 每10分钟运行一次（UTC时间）
     - cron: '*/10 * * * *'
@@ -27,7 +27,7 @@ jobs:
           echo "✅ CCTV列表下载完成"
           
           # 下载IPTV列表  
-          curl -s -L -o iptv.m3u "https://raw.githubusercontent.com/empyoung/BRTV-Live-M3U8/refs/heads/main/iptv.m3u"
+          curl -s -L -o iptv.m3u "https://raw.githubusercontent.com/mytv-android/BRTV-Live-M3U8/refs/heads/main/iptv.m3u"
           echo "✅ IPTV列表下载完成"
           
       - name: 3. 智能合并M3U文件
